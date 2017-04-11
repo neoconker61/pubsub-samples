@@ -1,5 +1,5 @@
-var clientId = '5atl1mq1nuidthx3h9bdgdom8zn33s4'; 
-var redirectURI = 'http://pubsub.ttv.travistyoj.com/';
+var clientId = '<YOUR CLIENT ID HERE>'; 
+var redirectURI = '<YOUR REDIRECT URL HERE>';
 var scope = 'user_read+chat_login';
 var ws;
 
