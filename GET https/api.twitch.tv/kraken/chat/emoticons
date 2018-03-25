@@ -1,3 +1,34 @@
-curl -H 'Accept: application/vnd.twitchtv.v5+json' \
+{
+   "_links": {
+      "self": "http://api.twitch.tv/kraken/chat/emoticons"
+   },
+   "emoticons": [
+      {
+         "id": 115390,
+         "regex": "TwitchLit",
+         "images": [
+            {
+               "width": 28,
+               "height": 28,
+               "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/emoticon-115390-src-b577ded8522fc1a1-28x28.png",
+               "emoticon_set": 19151
+            }
+         ]
+      },
+      {
+         "id": 80393,
+         "regex": "Kappa",
+         "images": [
+            {
+               "width": 28,
+               "height": 28,
+               "url": "https://static-cdn.jtvnw.net/jtv_user_pictures/emoticon-80393-src-cf7c8d03a4c5cb75-28x28.png",
+               "emoticon_set": 15940
+            }
+         ]
+      }
+      ...
+   ]
+}curl -H 'Accept: application/vnd.twitchtv.v5+json' \
 -H 'Client-ID: uo6dggojyb8d6soh92zknwmi5ej1q2' \
 -X GET 'https://api.twitch.tv/kraken/chat/emoticons'
